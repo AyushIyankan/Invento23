@@ -41,6 +41,10 @@
     margin-top: 1rem;
 }
 
+.i-grid {
+    display: inline-grid;
+}
+
 .i-flex {
     display: inline-flex;
     gap: var(--gap, 1rem);

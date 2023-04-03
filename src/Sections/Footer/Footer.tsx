@@ -18,7 +18,7 @@ export default function Footer() {
             <h4>#Risewithinvento</h4>
           </div>
         </div>
-        <hr />
+        <hr className="line" />
         <div className="footer__col i-flex">
           <InstagramLogo />
           <div className="link__container">
@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
+      <hr className="footer__vb" />
       <div className="footer__box footer__box--2 fs-200">
         <div className="contacts flex flex-col">
           <div className="mail flow flex flex-col a-center t-center">
@@ -59,7 +59,7 @@ export default function Footer() {
               invento23marketing@gmail.com
             </a>
           </div>
-          <hr />
+          <hr className="line" />
           <div className="call flow flex flex-col a-center t-center">
             <CallLogo />
             <a href="tel:+919995776023" className="footer__link d-b link">

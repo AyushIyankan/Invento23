@@ -1,5 +1,6 @@
 import Footer from "../Sections/Footer"
 import Hero from "../Sections/Hero"
+import Alert from "../components/Dialog"
 //components
 import Navbar from "../components/navbar/Navbar"
 
@@ -11,6 +12,7 @@ const Home = () => {
     <div className="home">
       <div className={styles.home}></div>
       <Navbar />
+      <Alert />
       <Hero />
       <Footer />
     </div>
